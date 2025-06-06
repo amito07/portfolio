@@ -7,8 +7,7 @@ import {
   Mail,
   MapPin,
   Phone,
-  Send,
-  Twitter,
+  Send
 } from "lucide-react";
 import { useState } from "react";
 

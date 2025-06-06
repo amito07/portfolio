@@ -101,9 +101,10 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
+            {" "}
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Let's Connect
+                Let&apos;s Connect
               </h3>{" "}
               <p className="text-gray-300 leading-relaxed mb-8">
                 I&apos;m currently available for freelance work and full-time
@@ -111,7 +112,6 @@ const Contact = () => {
                 to chat about technology, I&apos;d love to hear from you!
               </p>
             </div>
-
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <motion.a
@@ -134,7 +134,6 @@ const Contact = () => {
                 </motion.a>
               ))}
             </div>
-
             <div className="pt-8">
               <h4 className="text-lg font-semibold text-white mb-4">
                 Follow Me

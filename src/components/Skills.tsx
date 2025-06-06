@@ -183,9 +183,8 @@ const Skills = () => {
           <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-white/10 rounded-xl p-8">
             <h3 className="text-xl font-semibold text-white mb-4">
               Continuous Learning
-            </h3>
-            <p className="text-gray-300 max-w-3xl mx-auto mb-6">
-              I'm constantly expanding my skill set and staying up-to-date with
+            </h3>            <p className="text-gray-300 max-w-3xl mx-auto mb-6">
+              I&apos;m constantly expanding my skill set and staying up-to-date with
               the latest trends in web development. Currently exploring AI/ML
               integration, DevOps, and Cloud Architecture.
             </p>

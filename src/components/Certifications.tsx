@@ -27,10 +27,9 @@ const Certifications = () => {
       credentialId: "f80447cb5ae75e045c8991a38b483491",
       icon: "logos:coursera",
       verifyUrl: "https://coursera.org/share/f80447cb5ae75e045c8991a38b483491",
-      level: "Basic",
-      color: "green",
+      level: "Basic",      color: "green",
       description:
-        "Completed the 'Supervised Machine Learning: Regression and Classification' course, gaining hands-on experience with fundamental ML algorithms, model training, and evaluation techniques.",
+        "Completed the &apos;Supervised Machine Learning: Regression and Classification&apos; course, gaining hands-on experience with fundamental ML algorithms, model training, and evaluation techniques.",
     },
     {
       id: 3,
@@ -41,9 +40,8 @@ const Certifications = () => {
       icon: "logos:coursera",
       verifyUrl: "https://coursera.org/share/6f7cd2381a72eb5a89edaf2ac2536c78",
       level: "Advanced",
-      color: "blue",
-      description:
-        "Completed 'Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization' with practical knowledge in enhancing model performance through advanced training techniques and best practices.",
+      color: "blue",      description:
+        "Completed &apos;Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization&apos; with practical knowledge in enhancing model performance through advanced training techniques and best practices.",
     },
     {
       id: 4,
@@ -56,7 +54,7 @@ const Certifications = () => {
       level: "Advanced",
       color: "blue",
       description:
-        "Completed 'Neural Networks and Deep Learning,' gaining a solid foundation in deep learning concepts, including forward/backward propagation, activation functions, and building neural network architectures.",
+        "Completed &apos;Neural Networks and Deep Learning,&apos; gaining a solid foundation in deep learning concepts, including forward/backward propagation, activation functions, and building neural network architectures.",
     },
     {
       id: 5,
@@ -67,9 +65,8 @@ const Certifications = () => {
       icon: "logos:coursera",
       verifyUrl: "https://coursera.org/share/6f1f09d0152c0969c1b0516defeb430b",
       level: "Basic",
-      color: "blue",
-      description:
-        "Completed 'Server-side Development with NodeJS, Express, and MongoDB,' focusing on building RESTful APIs, managing databases, and developing full-stack web applications using the MERN stack.",
+      color: "blue",      description:
+        "Completed &apos;Server-side Development with NodeJS, Express, and MongoDB,&apos; focusing on building RESTful APIs, managing databases, and developing full-stack web applications using the MERN stack.",
     },
   ];
 

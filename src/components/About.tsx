@@ -25,10 +25,9 @@ const About = () => {
 
   const highlights = [
     {
-      icon: <Heart className="text-red-400" size={24} />,
-      title: "Passionate Developer",
+      icon: <Heart className="text-red-400" size={24} />,      title: "Passionate Developer",
       description:
-        "I love creating digital solutions that make a real impact on users' lives.",
+        "I love creating digital solutions that make a real impact on users&apos; lives.",
     },
     {
       icon: <Target className="text-green-400" size={24} />,

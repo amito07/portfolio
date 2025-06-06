@@ -39,9 +39,8 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold text-white mb-6"
-          >
-            Hi, I'm{" "}
+            className="text-5xl md:text-7xl font-bold text-white mb-6"          >
+            Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Amit Mandal
             </span>

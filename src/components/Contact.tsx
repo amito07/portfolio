@@ -1,14 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Github,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Send
-} from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
@@ -67,7 +60,7 @@ const Contact = () => {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/mandal-amit/",
       color: "hover:text-blue-400",
-    }
+    },
   ];
 
   return (
@@ -91,10 +84,11 @@ const Contact = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white">
               Get In Touch
             </h2>
-          </div>          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mb-6"></div>
+          </div>{" "}
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            I&apos;m always open to discussing new opportunities, creative ideas, or
-            potential collaborations.
+            I&apos;m always open to discussing new opportunities, creative
+            ideas, or potential collaborations.
           </p>
         </motion.div>
 
@@ -110,7 +104,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">
                 Let's Connect
-              </h3>              <p className="text-gray-300 leading-relaxed mb-8">
+              </h3>{" "}
+              <p className="text-gray-300 leading-relaxed mb-8">
                 I&apos;m currently available for freelance work and full-time
                 opportunities. Whether you have a project in mind or just want
                 to chat about technology, I&apos;d love to hear from you!

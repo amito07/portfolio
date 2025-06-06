@@ -34,8 +34,8 @@ export const portfolioConfig = {
 
   // About Section Stats
   stats: [
-    { number: "50+", label: "Projects Completed" },
-    { number: "5+", label: "Years Experience" },
+    { number: "20+", label: "Projects Completed" },
+    { number: "4+", label: "Years Experience" },
     { number: "20+", label: "Technologies" },
     { number: "100%", label: "Client Satisfaction" },
   ],

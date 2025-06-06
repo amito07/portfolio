@@ -25,7 +25,8 @@ const About = () => {
 
   const highlights = [
     {
-      icon: <Heart className="text-red-400" size={24} />,      title: "Passionate Developer",
+      icon: <Heart className="text-red-400" size={24} />,
+      title: "Passionate Developer",
       description:
         "I love creating digital solutions that make a real impact on users&apos; lives.",
     },
@@ -84,7 +85,14 @@ const About = () => {
                   Building the Future, One Line at a Time
                 </h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I’m a Software Engineer with 4 years of experience specializing in backend development and scalable system design. My core expertise lies in Node.js, Express, and Next.js, and I’ve also worked with Golang and Python to build robust, high-performance services. I enjoy solving complex architectural challenges, optimizing backend workflows, and collaborating across teams to deliver reliable, production-ready systems.
+                  I&apos;m a Software Engineer with 4 years of experience
+                  specializing in backend development and scalable system
+                  design. My core expertise lies in Node.js, Express, and
+                  Next.js, and I&apos;ve also worked with Golang and Python to build
+                  robust, high-performance services. I enjoy solving complex
+                  architectural challenges, optimizing backend workflows, and
+                  collaborating across teams to deliver reliable,
+                  production-ready systems.
                 </p>
               </div>
             </motion.div>
@@ -131,7 +139,7 @@ const About = () => {
             {[
               { number: "20+", label: "Projects Completed" },
               { number: "4+", label: "Years Experience" },
-              { number: "10+", label: "Technologies" },
+              { number: "20+", label: "Technologies" },
             ].map((stat, index) => (
               <motion.div
                 key={index}
